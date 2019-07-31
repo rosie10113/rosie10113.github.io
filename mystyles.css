@@ -1,0 +1,36 @@
+p {
+font-size:25px;
+color:white;
+font-family:georgia;
+}
+
+.header {
+  text-align:center;
+  padding: 25px;
+  color:white;
+}
+
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+body{
+  background-image: url("https://www.businesslegions.com/blog/wp-content/uploads/2018/01/b1.png");
+}
